@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
+/*============================
+| GERAL*/
+html{
+  font-size: 62.5%;
+  color: #232325;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+
+  background: url("../_imagens/pattern2.png");
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  margin: 0;
+  padding:0;
+  width: 100%;
+  height: 100%;
+}
+
+/*============================
+| ESTILO DA PAGINA TOTAL*/
+.conteiner{
+  width: 100vw;
+  height: 100vh;
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:". . ."
+                      ". b ."
+                      ". . .";
+}
+.box{
+  display:flex;
+  flex-flow: row wrap;
+  grid-area: b;
+  
+  width: 60vw;
+  background: #ffffff;
+  border-radius: 30px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,.030);
+  padding: 3%;
+  margin-top: 15px;
+}
+
+/*============================
+| CONTEINER DO MENU DE NAVEGAÇÃO*/
+.naveg{
+  display:flex;
+  flex-flow: column;
+  flex-grow: 1;
+  flex-basis: 10vw;
+  border-radius: 15px;
+  padding: 10px 30px 10px 10px;
+}
+.naveg header.logo{
+  display:flex;
+  border-radius: 15px;
+  align-items: top;
+  padding: 0px;
+}
+.naveg header.logo img{
+  margin-right: 3%;
+  width: 80px;
+  height: 80px;
+}
+.naveg header.logo h1{
+  line-height: 25px;
+  font-size: 3.0rem;
+  color: #2c303d;
+  margin-top: 1.5rem;
+}
+main nav ul{
+  display: flex;
+  flex-flow: column;
+  padding:0px;
+}
+main nav ul li{
+  display: flex;
+  margin-top: 10px;
+  padding: 5px 0px 5px 0px;
+  list-style: none;
+}
+main nav ul li a{
+  font-size: 1.7rem;
+  text-decoration: none;
+  font-weight: bolder;
+  width: 100%;
+  color: #2c303d;
+  margin-left: 2.5rem;
+}
+main nav ul li a:hover{
+  background: -webkit-linear-gradient(top left, #2065DF, #A28AF8);
+  background: -moz-linear-gradient(top left, #2065DF, #A28AF8);
+  background: linear-gradient(to bottom right, #2065DF, #A28AF8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.9rem;
+  transition-duration: .1s;
+}
+main nav ul li .icon{
+  height: 24px;
+}
+
+/*============================
+| CONTEINER DO CONTEÚDO*/
+.feed{
+  margin: 0px;
+  display: flex;
+  width: 40%;
+  padding: 0 30px 0 30px;
+  flex-grow: 7;
+  border-left: 1px solid #d7ddf1;
+}
+main{
+  width: 100%;
+}
+.feed main h1{
+  margin: 0 0 15px 0;
+  font-size: 4.0rem;
+  color: #2c303d;
+}
+p{
+  color: #4d5469;
+  margin: 0;
+}
+h6{
+  font-size: 2.0rem;
+  border-left: 5px solid #7163f1;
+  padding-left: 10px;
+  margin-bottom: 5px;
+}
+/*============================
+| PERFIL*/
+.feed main .painel{
+  display: flex;
+  flex-flow: row wrap;
+  border-radius: 1.5rem;
+}
+
+.feed main img{
+  width: 15.0rem;
+  height: 15.0rem;
+  border-radius: 1.5rem;
+  margin: 0 2.0rem 2.0rem 0;
+}.feed main img#myImg{
+  transition-duration:.5s;
+  border: 3px solid #7163f1;
+}
+.feed main h2{
+  color:#2c303d;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  margin: 0px;
+}
+.feed main h3{
+  margin: 0 0 15px 0;
+  width: 8.4rem;
+  color:#2c303d;
+  font-size: 2.0rem;
+  border-bottom: 3px solid #7163f1;
+}
+.feed main span.info{
+  color: #4d5469;
+  font-weight: normal;
+}
+
+/*============================
+| EDUCAÇÃO: ENSINO MÉDIO*/
+.feed main .cards{
+  width: 100%;
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-between;
+}
+div.en-medio .over{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  border-radius: 1.5rem;
+  transition-duration: .3s;
+}
+div.en-medio .over:hover{
+  opacity: 0%;
+  transition-duration: .2s;
+}
+.feed main .en-medio{
+  position: relative;
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  align-items: center;
+  color:#ffffff;
+  border-radius: 1.5rem;
+  width: 39.0rem;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+div.en-medio h1{
+  line-height: 5.0rem;
+  color:rgba(0,0,0,.4);
+  background: -webkit-linear-gradient(top left, #2065DF, #A28AF8);
+  background: -moz-linear-gradient(top left, #2065DF, #A28AF8);
+  background: linear-gradient(to bottom right, #2065DF, #A28AF8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 4.5rem;
+  text-align: center;
+  padding: 10px 0 10px 0;
+}
+div.en-medio h2{
+  margin: 10px 0 10px 0;
+  color: #8cbd18;
+  font-size: 4.0rem;
+  text-align: center;
+}
+div.en-medio p{
+  width: 80%;
+  color: #2c303d;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0px;
+}
+div.en-medio h4{
+  margin: 0%;
+  width: 80%;
+  color: #2c303d;
+  font-size: 3.5rem;
+  text-align: center;
+}
+div.en-medio h5{
+  margin: 0%;
+  width: 80%;
+  color: #ffffff;
+  font-size: 6.5rem;
+  text-align: center;
+}
+/*============================
+| EDUCAÇÃO: ENSINO SUPERIOR*/
+div.en-superior .over{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  position: absolute;
+  width: 100%;
+  height: 100%;
+background: #ffffff;
+  border-radius: 1.5rem;
+  transition-duration: .3s;
+}
+div.en-superior .over:hover{
+  opacity: 0%;
+  transition-duration: .2s;
+}
+.feed main .en-superior{
+  position: relative;
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  align-items: center;
+  color:#ffffff;
+  border-radius: 1.5rem;
+  width: 39.0rem;
+  height: 400px;
+}
+
+div.en-superior h1{
+  line-height: 5.0rem;
+  color:rgba(0,0,0,.4);
+  background: -webkit-linear-gradient(top left, #2065DF, #A28AF8);
+  background: -moz-linear-gradient(top left, #2065DF, #A28AF8);
+  background: linear-gradient(to bottom right, #2065DF, #A28AF8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 4.5rem;
+  text-align: center;
+  padding: 10px 0 10px 0;
+}
+div.en-superior h2{
+  margin: 10px 0 10px 0;
+  color: #f1a71e;
+  font-size: 4.0rem;
+  text-align: center;
+}
+div.en-superior p{
+  width: 80%;
+  color: #2c303d;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0px;
+}
+div.en-superior h4{
+  margin: 0%;
+  width: 80%;
+  color: #2c303d;
+  font-size: 2.5rem;
+  text-align: center;
+}
+div.en-superior h5{
+  margin: 0%;
+  width: 80%;
+  color: #ffffff;
+  font-size: 6.5rem;
+  text-align: center;
+}
