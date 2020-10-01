@@ -1,4 +1,5 @@
 <h1>Meu Primeiro Site</h1>
+<h5> HTML5/CSS </h5>
   <h2>"Startando!"</h2>
   <p>
     No link abaixo você irá se deparar com minha primeira aplicação web depois de um mês estudando HTML e CSS básico.<br>
@@ -11,5 +12,4 @@
     Por fim, a aplicação não ficou totalmente responsiva, mas senti a necessidade de finalizar o projeto para não me desanimar nos estudos.
     Espero poder aprender mais sobre responsividade e como utilizar JavaScript para gerar mais interatividade.
     </p>
-<h5> HTML5/CSS </h5>
-<a href="https://alex-yomare.github.io/MeuCurriculo.github.io/index.html">[ Visualizar ]</a>
+<a href="https://alex-yomare.github.io/MeuCurriculo.github.io/index.html">[ Visualizar Aplicação ]</a>
