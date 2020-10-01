@@ -309,3 +309,9 @@ div.en-superior h5{
   font-size: 6.5rem;
   text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+ .box{
+  width: 80vw;
+  }
+}
