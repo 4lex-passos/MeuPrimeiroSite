@@ -1,2 +1,2 @@
 
-https://alex-yomare.github.io/MeuCurriculo.github.io/educacao.html
+https://alex-yomare.github.io/MeuCurriculo.github.io/index.html
