@@ -311,7 +311,7 @@ div.en-superior h5{
 }
 
 @media (max-width: 630px) {
- .box{
+ .conteiner .box{
   width: 95%;
   }
 }
