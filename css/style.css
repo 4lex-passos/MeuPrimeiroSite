@@ -310,7 +310,7 @@ div.en-superior h5{
   text-align: center;
 }
 
-@media only screen and (min-width: 600px) {
+@media (max-width: 630px) {
  .box{
   width: 80vw;
   }
