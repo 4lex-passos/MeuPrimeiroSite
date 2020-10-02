@@ -90,6 +90,7 @@ main nav ul li a{
   color: #2c303d;
   margin-left: 2.5rem;
 }
+
 main nav ul li a:hover{
   background: -webkit-linear-gradient(top left, #2065DF, #A28AF8);
   background: -moz-linear-gradient(top left, #2065DF, #A28AF8);
@@ -99,7 +100,6 @@ main nav ul li a:hover{
   font-size: 1.9rem;
   transition-duration: .1s;
 }
-
 main nav ul li .icon{
   height: 24px;
 }
@@ -114,147 +114,205 @@ main nav ul li .icon{
   flex-grow: 7;
   border-left: 1px solid #d7ddf1;
 }
-
 main{
   width: 100%;
 }
-
-h1{
-  margin: 0 0 20px 0;
+.feed main h1{
+  margin: 0 0 15px 0;
   font-size: 4.0rem;
   color: #2c303d;
 }
-
-h2{
-  color: #2c303d;
-  font-size: 1.5rem;
-}
-
 p{
   color: #4d5469;
+  margin: 0;
+}
+h6{
+  font-size: 2.0rem;
+  border-left: 5px solid #7163f1;
+  padding-left: 10px;
+  margin-bottom: 5px;
+}
+/*============================
+| PERFIL*/
+.feed main .painel{
+  display: flex;
+  flex-flow: row wrap;
+  border-radius: 1.5rem;
 }
 
-h5{
-  color: #fff;
-  margin: 10px 0 0 0;
+.feed main img{
+  width: 15.0rem;
+  height: 15.0rem;
+  border-radius: 1.5rem;
+  margin: 0 2.0rem 2.0rem 0;
+}.feed main img#myImg{
+  transition-duration:.5s;
+  border: 3px solid #7163f1;
+}
+.feed main h2{
+  color:#2c303d;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  margin: 0px;
+}
+.feed main h3{
+  margin: 0 0 15px 0;
+  width: 8.4rem;
+  color:#2c303d;
+  font-size: 2.0rem;
+  border-bottom: 3px solid #7163f1;
+}
+.feed main span.info{
+  color: #4d5469;
+  font-weight: normal;
 }
 
 /*============================
-| SKILLS */
-div.skills{
+| EDUCAÇÃO: ENSINO MÉDIO*/
+.feed main .cards{
+  width: 100%;
   display: flex;
-  flex-flow: column;
+  flex-flow: wrap row;
+  justify-content: space-between;
 }
-.skills div.tools{
+div.en-medio .over{
   display: flex;
-  flex-flow: wrap;
-  gap: 10px;
+  justify-content: center;
+  align-items: center; 
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  border-radius: 1.5rem;
+  transition-duration: .3s;
 }
-.skills h3{
-  border-left: 6px solid #A28AF8;
-  padding-left: 15px;
+div.en-medio .over:hover{
+  opacity: 0%;
+  transition-duration: .2s;
 }
-/*============================
-| HARD SKILLS */
-.ilustrator{
-  display: flex;
-  flex-flow: column;
+.feed main .en-medio{
   position: relative;
+  display: flex;
+  flex-flow: wrap column;
   justify-content: center;
   align-items: center;
+  color:#ffffff;
+  border-radius: 1.5rem;
+  width: 39.0rem;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+div.en-medio h1{
+  line-height: 5.0rem;
+  color:rgba(0,0,0,.4);
   background: -webkit-linear-gradient(top left, #2065DF, #A28AF8);
   background: -moz-linear-gradient(top left, #2065DF, #A28AF8);
   background: linear-gradient(to bottom right, #2065DF, #A28AF8);
-  border-radius: 15px;
-  width: 15.0rem;
-  height: 15.0rem;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 4.5rem;
+  text-align: center;
+  padding: 10px 0 10px 0;
 }
-
-.photoshop{
-  flex-flow: column;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: -webkit-linear-gradient(top left,#A28AF8, #2065DF);
-  background: -moz-linear-gradient(top left,,#A28AF8, #2065DF);
-  background: linear-gradient(to bottom right,,#A28AF8, #2065DF);
-  border-radius: 15px;
-  width: 15.0rem;
-  height: 15.0rem;
+div.en-medio h2{
+  margin: 10px 0 10px 0;
+  color: #8cbd18;
+  font-size: 4.0rem;
+  text-align: center;
 }
-
-.html{
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-  background: -webkit-linear-gradient(top left, #2065DF, #A28AF8);
-  background: -moz-linear-gradient(top left, #2065DF, #A28AF8);
-  background: linear-gradient(to bottom right, #2065DF, #A28AF8);
-  border-radius: 15px;
-  width: 15.0rem;
-  height: 15.0rem;
+div.en-medio p{
+  width: 80%;
+  color: #2c303d;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0px;
 }
-
-.css{
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-  background: -webkit-linear-gradient(top left,#A28AF8, #2065DF);
-  background: -moz-linear-gradient(top left,,#A28AF8, #2065DF);
-  background: linear-gradient(to bottom right,,#A28AF8, #2065DF);
-  border-radius: 15px;
-  width: 15.0rem;
-  height: 15.0rem;
+div.en-medio h4{
+  margin: 0%;
+  width: 80%;
+  color: #2c303d;
+  font-size: 3.5rem;
+  text-align: center;
 }
-
+div.en-medio h5{
+  margin: 0%;
+  width: 80%;
+  color: #ffffff;
+  font-size: 6.5rem;
+  text-align: center;
+}
 /*============================
-| SOFT SKILLS */
-.comunicativo{
+| EDUCAÇÃO: ENSINO SUPERIOR*/
+div.en-superior .over{
   display: flex;
-  flex-flow: column;
   justify-content: center;
-  align-items: center;
-  background: -webkit-linear-gradient(top left,#A28AF8, #2065DF);
-  background: -moz-linear-gradient(top left,,#A28AF8, #2065DF);
-  background: linear-gradient(to bottom right,,#A28AF8, #2065DF);
-  border-radius: 15px;
-  width: 15.0rem;
-  height: 15.0rem;
+  align-items: center; 
+  position: absolute;
+  width: 100%;
+  height: 100%;
+background: #ffffff;
+  border-radius: 1.5rem;
+  transition-duration: .3s;
 }
-.grupo{
+div.en-superior .over:hover{
+  opacity: 0%;
+  transition-duration: .2s;
+}
+.feed main .en-superior{
+  position: relative;
   display: flex;
-  flex-flow: column;
+  flex-flow: wrap column;
   justify-content: center;
   align-items: center;
+  color:#ffffff;
+  border-radius: 1.5rem;
+  width: 39.0rem;
+  height: 400px;
+}
+
+div.en-superior h1{
+  line-height: 5.0rem;
+  color:rgba(0,0,0,.4);
   background: -webkit-linear-gradient(top left, #2065DF, #A28AF8);
   background: -moz-linear-gradient(top left, #2065DF, #A28AF8);
   background: linear-gradient(to bottom right, #2065DF, #A28AF8);
-  border-radius: 15px;
-  width: 15.0rem;
-  height: 15.0rem;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 4.5rem;
+  text-align: center;
+  padding: 10px 0 10px 0;
 }
-.paz{
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-  background: -webkit-linear-gradient(top left,#A28AF8, #2065DF);
-  background: -moz-linear-gradient(top left,,#A28AF8, #2065DF);
-  background: linear-gradient(to bottom right,,#A28AF8, #2065DF);
-  border-radius: 15px;
-  width: 15.0rem;
-  height: 15.0rem;
+div.en-superior h2{
+  margin: 10px 0 10px 0;
+  color: #f1a71e;
+  font-size: 4.0rem;
+  text-align: center;
 }
-@media (max-width: 600px) {
-  .conteiner{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-  }
-  .box{
-    display:flex;
-    width: 80vw;
+div.en-superior p{
+  width: 80%;
+  color: #2c303d;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0px;
+}
+div.en-superior h4{
+  margin: 0%;
+  width: 80%;
+  color: #2c303d;
+  font-size: 2.5rem;
+  text-align: center;
+}
+div.en-superior h5{
+  margin: 0%;
+  width: 80%;
+  color: #ffffff;
+  font-size: 6.5rem;
+  text-align: center;
+}
+
+@media (max-width: 630px) {
+ .conteiner .box{
+  width: 95%;
   }
 }

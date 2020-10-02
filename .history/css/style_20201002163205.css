@@ -313,12 +313,19 @@ div.en-superior h5{
 
 @media (max-width: 600px) {
   .conteiner{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    width: 100vw;
+    height: 100vh;
+    
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas:". . ."
+                        ". b ."
+                        ". . .";
   }
   .box{
     display:flex;
-    width: 80vw;
-  }
+    flex-flow: row wrap;
+    grid-area: b;
+    
+    width: 60vw;
 }
