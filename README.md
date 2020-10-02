@@ -1,5 +1,5 @@
 <h1>Meu Primeiro Site</h1>
-<h6>Trabalho de Faculdade / Ciência da coputação / Dev. Web / Criar Curriculo em HTML e CSS</h6>
+<h6>Trabalho de Faculdade / Ciência da Computação / Dev. Web / Criar Curriculo em HTML e CSS</h6>
 <br>
   <h2>🚩"Startando!"</h2>
   <p>
