@@ -1,5 +1,6 @@
 <h1>Meu Primeiro Site</h1>
-<h5> HTML5/CSS </h5>
+<h6>Trabalho de Faculdade / Ciência da coputação / Dev. Web / Criar Curriculo em HTML e CSS</h6>
+<br>
   <h2>🚩"Startando!"</h2>
   <p>
     No link abaixo você irá se deparar com minha primeira aplicação web depois de um mês estudando HTML e CSS básico.<br>
