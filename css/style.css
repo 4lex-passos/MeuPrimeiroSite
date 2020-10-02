@@ -309,3 +309,9 @@ div.en-superior h5{
   font-size: 6.5rem;
   text-align: center;
 }
+
+@media (max-width: 630px) {
+ .conteiner .box{
+  width: 95%;
+  }
+}
