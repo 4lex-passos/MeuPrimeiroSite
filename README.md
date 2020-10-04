@@ -13,6 +13,6 @@
     Gosto de pensar como Designer ao estilizar minhas páginas, pois isso me traz satisfação ao conseguir implementar um estilo sendo programador. cada linha de código que sai do jeito que imaginei na tela, me incentiva a querer conhecer mais formas de estilizar meu projeto.
     </p>
     <p>
-    Por fim, a aplicação não ficou totalmente responsiva e faltou alguns caprichos na UI por falta de planejamento, mas senti a necessidade de finalizar o projeto para não me desanimar nos estudos.
+    Por fim, a aplicação não ficou totalmente responsiva, faltou alguns caprichos na UI por falta de planejamento e as folhas de estilo ficaram saturadas, mas senti a necessidade de finalizar o projeto para não me desanimar nos estudos.
     Espero poder aprender mais sobre responsividade e como utilizar JavaScript para gerar mais interatividade.
     </p>
